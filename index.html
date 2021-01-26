@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var menu = prompt('저녁으로 무엇을 먹고싶은가요?')
+		
+		if(menu=="짜장면" || menu=="치킨" || menu=="초밥" || menu=="햄버거" || menu=="쭈꾸미" ||menu=="오리바베큐" || menu=="햄버거" || menu=="오겹살"){
+			var price = prompt('가격은 얼마가 적당한가요?(숫자로 적으시오)')
+			if(price>=20000){
+				alert('너무 비싸')
+			}
+			else if(price<=20000)
+				alert('좋아 주문해')
+		}
+		else{
+			alert('별론데')
+		}
+	</script>
+</body>
+</html>
